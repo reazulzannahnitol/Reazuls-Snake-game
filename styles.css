@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('background.jpg') no-repeat center center fixed; /* Add your background image here */
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.canvas-container {
+    display: inline-block;
+    padding: 5px; /* Adjust padding to control the width of the gradient border */
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000);
+    border-radius: 10px;
+}
+
+.rz{
+    color: yellow;
+    font-size: 50px;
+    position: absolute;
+    top: 4%;
+}
+
+.start{
+    margin-bottom: 30px;
+    background: rgba(238, 27, 12, 0.753); /* Add a semi-transparent background to make text readable */
+    padding: 5px;
+}
+
+canvas {
+    border: 1px solid black;
+}
