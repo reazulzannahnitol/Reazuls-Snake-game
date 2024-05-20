@@ -1,2 +1,1 @@
-# Reazuls-Snake-game
-Used HTML, CSS, BOOTSTRAP, JAVASCRIPT
+Visit website by clickling this link: https://reazulzannahnitol.github.io/Reazuls-Snake-game
